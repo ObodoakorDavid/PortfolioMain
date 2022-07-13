@@ -11,6 +11,7 @@ import RockPaperScissors from "../../Assets/ProjectImages/RockPaperScissorsIMG.p
 import DictionaryApp from "../../Assets/ProjectImages/DictionaryIMG.png";
 
 const Portfolio = () => {
+  
   const ReactData = [
     {
       id: 1,
