@@ -13,6 +13,7 @@ import moon from "../../Assets/Icons/moon-fill.svg";
 
 const Navbarr = () => {
   const [image, setImage] = useState(brightness);
+  const [active, setActive] = useState("home");
 
   function lightmode() {
     let body = document.body;
@@ -24,49 +25,35 @@ const Navbarr = () => {
       setImage(brightness);
     }
   }
-
-  function iconClick(clickOne) {
-    let icons = document.querySelectorAll(".icons");
-    icons.forEach((icon) => {
-      icon.classList.remove("active");
-      clickOne.classList.add("active");
-    });
-  }
   return (
     <header>
       <nav className="nav-menu">
         <Link to="/">
           <img
-            className="home icons"
-            onClick={() => {
-              let home = document.querySelector(".home");
-
-              iconClick(home);
-            }}
+            className={active === "home" ? "home icons active" : "home icons"}
+            onClick={() => setActive("home")}
             src={Home}
             alt=""
           />
         </Link>
         <Link to="/aboutme">
           <img
-            className="aboutMe icons"
-            onClick={() => {
-              let aboutMe = document.querySelector(".aboutMe");
-
-              iconClick(aboutMe);
-            }}
+            className={
+              active === "aboutMe" ? "aboutMe icons active" : "aboutMe icons"
+            }
+            onClick={() => setActive("aboutMe")}
             src={AboutMe}
             alt=""
           />
         </Link>
         <Link to="/portfolio">
           <img
-            className="portfolio-nav icons"
-            onClick={() => {
-              let portfolio1 = document.querySelector(".portfolio-nav");
-
-              iconClick(portfolio1);
-            }}
+            className={
+              active === "portfolio-nav"
+                ? "portfolio-nav icons active"
+                : "portfolio-nav icons"
+            }
+            onClick={() => setActive("portfolio-nav")}
             src={Portfolio}
             alt=""
           />
@@ -74,12 +61,12 @@ const Navbarr = () => {
 
         <Link to="/contactme">
           <img
-            className="contactMe icons"
-            onClick={() => {
-              let contactMe = document.querySelector(".contactMe");
-
-              iconClick(contactMe);
-            }}
+            className={
+              active === "contactMe"
+                ? "contactMe icons active"
+                : "contactMe icons"
+            }
+            onClick={() => setActive("contactMe")}
             src={ContactMe}
             alt=""
           />

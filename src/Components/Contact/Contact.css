@@ -23,6 +23,7 @@
   border: none;
   box-shadow: 1px 1px var(--secondary-color);
   color: var(--color-white);
+  outline: none;
 }
 
 .rightside textarea {
@@ -34,6 +35,8 @@
   color: var(--color-white);
   box-shadow: 1px 1px var(--secondary-color);
   border: none;
+  resize: none;
+  outline: none;
 }
 
 .contact-info-items {
@@ -52,11 +55,10 @@
 .contact-info-items a {
   color: var(--color-white);
   text-decoration: none;
+  border-radius: 5px;
 }
 .contact-info-items a:hover {
-  transform: scale(1.1);
-  color: var(--secondary-color);
-  font-weight: bold;
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 .contact-info-pairs {
@@ -79,6 +81,23 @@
 
 .form-div {
   padding-top: 30px;
+}
+
+.icons-socials{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 250px;
+  margin: 30px auto;
+}
+
+.socials{
+  fill: var(--secondary-color);
+  font-size: 30px;
+}
+
+.socials:hover{
+  fill: var(--color-white);
 }
 
 @media (min-width: 768px) {

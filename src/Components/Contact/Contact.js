@@ -2,6 +2,7 @@
 
 import React from "react";
 import "./Contact.css";
+import { BsGithub, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -13,9 +14,8 @@ const Contact = () => {
         <div className="leftside">
           <p>
             If you have a project you'd like me to work on or just want to
-            collaborate a new or existing project, You can reach me through any
-            of the available means below. You can also fill and submit the form
-            and i'll get back to you as soon as possible.
+            collaborate a new or existing project, You can also fill and submit
+            the form and i'll get back to you as soon as possible.
           </p>
           <div>
             <div className="contact-info-items">
@@ -89,6 +89,18 @@ const Contact = () => {
             <button>Submit</button>
           </form>
         </div>
+      </div>
+
+      <div className="icons-socials">
+        <a href="https://github.com/ObodoakorDavid">
+          <BsGithub className="socials" />
+        </a>
+        <a href="https://twitter.com/UnseenDavid">
+          <BsTwitter className="socials" />
+        </a>
+        <a href="#">
+          <BsLinkedin className="socials" />
+        </a>
       </div>
     </div>
   );

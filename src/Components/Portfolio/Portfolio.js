@@ -9,9 +9,9 @@ import EasyBanking from "../../Assets/ProjectImages/EasyBankingIMG.png";
 import TradeExpress from "../../Assets/ProjectImages/TradeExpressIMG.png";
 import RockPaperScissors from "../../Assets/ProjectImages/RockPaperScissorsIMG.png";
 import DictionaryApp from "../../Assets/ProjectImages/DictionaryIMG.png";
+import haWallet from "../../Assets/ProjectImages/ha-wallet.png";
 
 const Portfolio = () => {
-  
   const ReactData = [
     {
       id: 1,
@@ -26,7 +26,7 @@ const Portfolio = () => {
       Github:
         "https://github.com/ObodoakorDavid/https://github.com/ObodoakorDavid/BookmarkWebpage",
       LiveDemo: "https://github.com/ObodoakorDavid/Ha-Wallet",
-      img: Shortly,
+      img: haWallet,
     },
     {
       id: 3,
@@ -37,20 +37,27 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      name: "EasyBanking",
+      Github: "https://github.com/ObodoakorDavid/TradExpress",
+      LiveDemo: "https://generate-random-number.netlify.app/",
+      img: EasyBanking,
+    },
+    {
+      id: 5,
       name: "Rock Paper Scissors",
       Github: "https://github.com/ObodoakorDavid/Rock-Paper-Scissors",
       LiveDemo: "https://rock-paper-scissors-webpage.netlify.app/",
       img: RockPaperScissors,
     },
     {
-      id: 5,
+      id: 6,
       name: "Dictionary App",
       Github: "https://github.com/ObodoakorDavid/Working-Dictionary",
       LiveDemo: "",
       img: DictionaryApp,
     },
     {
-      id: 6,
+      id: 7,
       name: "TradExpress",
       Github: "https://github.com/ObodoakorDavid/TradExpress",
       LiveDemo: "https://generate-random-number.netlify.app/",
@@ -126,14 +133,10 @@ const Portfolio = () => {
                 <div className="eachproject" key={datum.id}>
                   <img src={datum.img} alt="" />
                   <h3>{datum.name}</h3>
-                  <div className="bg-item">
-                    <button>
-                      <a href="">Github</a>
-                    </button>
-                    <button>
-                      <a href="">Live Demo</a>
-                    </button>
-                  </div>
+                  <span className="bg-item">
+                    <a href="">Github</a>
+                    <a href="">Live Demo</a>
+                  </span>
                 </div>
               );
             })}
