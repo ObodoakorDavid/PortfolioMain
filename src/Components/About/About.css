@@ -4,8 +4,9 @@
   color: var(--color-white);
   padding: 3% 5%;
   background-color: var(--primary-color);
-  height: 100vh;
+  min-height: 100vh;
   transition: 0.4 ease-in-out;
+  padding-bottom: 80px;
 }
 
 .about span {
