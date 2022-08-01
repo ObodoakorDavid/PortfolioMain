@@ -14,8 +14,8 @@ const Contact = () => {
         <div className="leftside">
           <p>
             If you have a project you'd like me to work on or just want to
-            collaborate a new or existing project, You can also fill and submit
-            the form and i'll get back to you as soon as possible.
+            collaborate on a new or existing project, You can also fill and
+            submit the form and i'll get back to you as soon as possible.
           </p>
           <div>
             <div className="contact-info-items">
@@ -98,7 +98,7 @@ const Contact = () => {
         <a href="https://twitter.com/UnseenDavid">
           <BsTwitter className="socials" />
         </a>
-        <a href="#">
+        <a href="https://linkedin.com/in/david-obodoakor-369b1b235">
           <BsLinkedin className="socials" />
         </a>
       </div>

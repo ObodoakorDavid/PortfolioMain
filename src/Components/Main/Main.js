@@ -10,7 +10,7 @@ const Main = () => {
       <div className="inner-main">
         <div>
           <h1>
-            Hi, i'm <span>David Obodoakor. </span>A Web Developer
+            Hi, I'm <span>David Obodoakor. </span>A Web Developer
           </h1>
           {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In debitis
