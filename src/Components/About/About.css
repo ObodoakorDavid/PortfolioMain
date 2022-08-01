@@ -22,6 +22,7 @@
 
 .progress {
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .progress > div {

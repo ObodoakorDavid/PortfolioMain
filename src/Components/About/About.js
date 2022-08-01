@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import './About.css'
+import "./About.css";
 
 const About = () => {
   return (
@@ -12,16 +12,16 @@ const About = () => {
       <div className="information">
         <div className="inner-information1">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut
-            dignissimos inventore omnis, voluptate non odit asperiores, eos
-            ducimus assumenda recusandae atque corporis. Consequatur repellat
-            itaque nemo fugiat ea optio.
+            I am a budding FullStack Web Developer, currently navigating and
+            learning the web one line of code at a time, eagerly willing to
+            learn anything that has to do with building and making the web look
+            good and also function optimally.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut
-            dignissimos inventore omnis, voluptate non odit asperiores, eos
-            ducimus assumenda recusandae atque corporis. Consequatur repellat
-            itaque nemo fugiat ea optio.
+            I am a free-spirited person who enjoys inddor activities like
+            table-tennis, board games, video games and watching TV Shows/Movies.
+            Some outdoor activites are sometimes fancied but inddor activites
+            are preferred.
           </p>
         </div>
         <div className="inner-information2">

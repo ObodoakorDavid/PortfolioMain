@@ -1,8 +1,8 @@
 /** @format */
 
 import React, { useState } from "react";
-import Me from "../../Assets/Icons/pexels-francesco-ungaro-2926525.jpg";
-import './Main.css'
+import Me from "../../Assets/ProjectImages/IMG_20220329_091704.jpg";
+import "./Main.css";
 
 const Main = () => {
   return (
@@ -10,13 +10,20 @@ const Main = () => {
       <div className="inner-main">
         <div>
           <h1>
-            Hi i'm <span>Phillip Stark. </span>A Web Developer
+            Hi, i'm <span>David Obodoakor. </span>A Web Developer
           </h1>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In debitis
             tempora, tempore labore veritatis ullam eius aspernatur rem impedit
             facilis, cum consectetur ut perferendis eaque dolorem non nobis,
             dicta similique.
+          </p> */}
+
+          <p>
+            I'm an enthusiatic web Developer that's passionate about creating
+            beautiful, funtional and interactive webpages/websites using modern
+            frameworks and libraries. I am also a fast learner who's always
+            eager to learn about new things.
           </p>
         </div>
         <img src={Me} alt="" />
