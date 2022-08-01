@@ -10,6 +10,9 @@ import TradeExpress from "../../Assets/ProjectImages/TradeExpressIMG.png";
 import RockPaperScissors from "../../Assets/ProjectImages/RockPaperScissorsIMG.png";
 import DictionaryApp from "../../Assets/ProjectImages/DictionaryIMG.png";
 import haWallet from "../../Assets/ProjectImages/ha-wallet.png";
+import GuessMyNumber from "../../Assets/ProjectImages/GuessMyNumber.png";
+import DiceGame from "../../Assets/ProjectImages/DiceGameIMG.png";
+import CounterApp from "../../Assets/ProjectImages/CounterApp.png";
 
 const Portfolio = () => {
   const ReactData = [
@@ -71,21 +74,21 @@ const Portfolio = () => {
       name: "Guess My Number",
       Github: "https://github.com/ObodoakorDavid/GuessMyNumber",
       LiveDemo: "https://guess-my-number-tsa.netlify.app/",
-      img: Shortly,
+      img: GuessMyNumber,
     },
     {
       id: 2,
       name: "Dice Game",
       Github: "https://github.com/ObodoakorDavid/DiceGame",
       LiveDemo: "https://dice-game-tsa.netlify.app/",
-      img: Shortly,
+      img: DiceGame,
     },
     {
       id: 3,
-      name: "Generate Random Number",
-      Github: "https://github.com/ObodoakorDavid/GenerateRandomNumber",
-      LiveDemo: "https://generate-random-number.netlify.app/",
-      img: Shortly,
+      name: "Counter App",
+      Github: "https://github.com/ObodoakorDavid/CounterWebsite",
+      LiveDemo: "https://counterwebpage.netlify.app/",
+      img: CounterApp,
     },
   ];
 
@@ -160,7 +163,7 @@ const Portfolio = () => {
             })}
           </div>
 
-          <div className="allprojects-items">
+          {/* <div className="allprojects-items">
             <h1>HTML & CSS Projects</h1>
             <div className="projects">
               {HtmlData.map((datum) => {
@@ -176,7 +179,7 @@ const Portfolio = () => {
                 );
               })}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

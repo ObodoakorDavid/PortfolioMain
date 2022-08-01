@@ -47,7 +47,7 @@ const About = () => {
         <div className="progress">
           <p>HTML5</p>
           <div>
-            <p>80%</p>
+            <p>90%</p>
             <div className="progress-inner">
               <div className="progressbar html"></div>
             </div>
@@ -56,7 +56,7 @@ const About = () => {
         <div className="progress">
           <p>CSS</p>
           <div>
-            <p>70%</p>
+            <p>80%</p>
             <div className="progress-inner">
               <div className="progressbar css"></div>
             </div>
@@ -65,7 +65,7 @@ const About = () => {
         <div className="progress">
           <p>JavaScript</p>
           <div>
-            <p>80%</p>
+            <p>70%</p>
             <div className="progress-inner">
               <div className="progressbar javascript"></div>
             </div>
