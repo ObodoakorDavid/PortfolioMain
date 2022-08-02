@@ -137,8 +137,8 @@ const Portfolio = () => {
                   <img src={datum.img} alt="" />
                   <h3>{datum.name}</h3>
                   <span className="bg-item">
-                    <a href="">Github</a>
-                    <a href="">Live Demo</a>
+                    <a href={datum.Github}>Github</a>
+                    <a href={datum.LiveDemo}>Live Demo</a>
                   </span>
                 </div>
               );
