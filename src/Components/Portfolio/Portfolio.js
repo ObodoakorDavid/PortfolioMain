@@ -26,8 +26,7 @@ const Portfolio = () => {
     {
       id: 2,
       name: "Ha-Wallet",
-      Github:
-        "https://github.com/ObodoakorDavid/https://github.com/ObodoakorDavid/BookmarkWebpage",
+      Github: "https://github.com/ObodoakorDavid/BookmarkWebpage",
       LiveDemo: "https://github.com/ObodoakorDavid/Ha-Wallet",
       img: haWallet,
     },
@@ -42,7 +41,7 @@ const Portfolio = () => {
       id: 4,
       name: "EasyBanking",
       Github: "https://github.com/ObodoakorDavid/TradExpress",
-      LiveDemo: "https://generate-random-number.netlify.app/",
+      LiveDemo: "https://easybanking-webpage.netlify.app/",
       img: EasyBanking,
     },
     {
@@ -56,14 +55,14 @@ const Portfolio = () => {
       id: 6,
       name: "Dictionary App",
       Github: "https://github.com/ObodoakorDavid/Working-Dictionary",
-      LiveDemo: "",
+      LiveDemo: "https://dictionary-website.netlify.app/",
       img: DictionaryApp,
     },
     {
       id: 7,
       name: "TradExpress",
       Github: "https://github.com/ObodoakorDavid/TradExpress",
-      LiveDemo: "https://generate-random-number.netlify.app/",
+      LiveDemo: "https://tradexpress.netlify.app/",
       img: TradeExpress,
     },
   ];
