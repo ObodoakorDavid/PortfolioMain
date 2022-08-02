@@ -27,7 +27,7 @@ const Portfolio = () => {
       id: 2,
       name: "Ha-Wallet",
       Github: "https://github.com/ObodoakorDavid/BookmarkWebpage",
-      LiveDemo: "https://github.com/ObodoakorDavid/Ha-Wallet",
+      LiveDemo: "https://ha-wallet.netlify.app/",
       img: haWallet,
     },
     {
