@@ -6,6 +6,7 @@ import Navbarr from "./Components/Navbar/Navbarr";
 import About from "./Components/About/About";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/aboutme" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contactme" element={<Contact />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
     </div>

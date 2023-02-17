@@ -3,16 +3,19 @@
 import React from "react";
 import "./Portfolio.css";
 import githubIcon from "../../Assets/Icons/github.svg";
-import Fylo from "../../Assets/ProjectImages/FyloIMG.png";
-import Shortly from "../../Assets/ProjectImages/ShortlyIMG.png";
-import EasyBanking from "../../Assets/ProjectImages/EasyBankingIMG.png";
-import TradeExpress from "../../Assets/ProjectImages/TradeExpressIMG.png";
-import RockPaperScissors from "../../Assets/ProjectImages/RockPaperScissorsIMG.png";
-import DictionaryApp from "../../Assets/ProjectImages/DictionaryIMG.png";
-import haWallet from "../../Assets/ProjectImages/ha-wallet.png";
-import GuessMyNumber from "../../Assets/ProjectImages/GuessMyNumber.png";
-import DiceGame from "../../Assets/ProjectImages/DiceGameIMG.png";
-import CounterApp from "../../Assets/ProjectImages/CounterApp.png";
+import Fylo from "../../Assets/images/FyloIMG.png";
+import Shortly from "../../Assets/images/ShortlyIMG.png";
+import EasyBanking from "../../Assets/images/EasyBankingIMG.png";
+import TradeExpress from "../../Assets/images/TradeExpressIMG.png";
+import RockPaperScissors from "../../Assets/images/RockPaperScissorsIMG.png";
+import DictionaryApp from "../../Assets/images/DictionaryIMG.png";
+import haWallet from "../../Assets/images/ha-wallet.png";
+import GuessMyNumber from "../../Assets/images/GuessMyNumber.png";
+import DiceGame from "../../Assets/images/DiceGameIMG.png";
+import CounterApp from "../../Assets/images/CounterApp.png";
+import FMTodoApp from "../../Assets/images/FM-todo-app.png";
+import FMAdviceGenerator from "../../Assets/images/FM-advice-generator.png";
+import FMTipCalculator from "../../Assets/images/fm-tip-calculator.png";
 
 const Portfolio = () => {
   const ReactData = [
@@ -44,12 +47,19 @@ const Portfolio = () => {
       LiveDemo: "https://easybanking-webpage.netlify.app/",
       img: EasyBanking,
     },
+    // {
+    //   id: 5,
+    //   name: "Rock Paper Scissors",
+    //   Github: "https://github.com/ObodoakorDavid/Rock-Paper-Scissors",
+    //   LiveDemo: "https://rock-paper-scissors-webpage.netlify.app/",
+    //   img: RockPaperScissors,
+    // },
     {
       id: 5,
-      name: "Rock Paper Scissors",
-      Github: "https://github.com/ObodoakorDavid/Rock-Paper-Scissors",
-      LiveDemo: "https://rock-paper-scissors-webpage.netlify.app/",
-      img: RockPaperScissors,
+      name: "Random Advice Generator",
+      Github: "https://github.com/ObodoakorDavid/FM-Advice-Generator",
+      LiveDemo: "https://fm-random-advice-generator-main.netlify.app/",
+      img: FMAdviceGenerator,
     },
     {
       id: 6,
@@ -65,25 +75,39 @@ const Portfolio = () => {
       LiveDemo: "https://tradexpress.netlify.app/",
       img: TradeExpress,
     },
+    {
+      id: 8,
+      name: "Todo App",
+      Github: "https://github.com/ObodoakorDavid/FM-Todo-App",
+      LiveDemo: "https://fm-todo-app-main.netlify.app/",
+      img: FMTodoApp,
+    },
   ];
 
   const JavaScriptData = [
     {
       id: 1,
+      name: "Tip Calculator",
+      Github: "https://github.com/ObodoakorDavid/FM-Tip-Calculator-App",
+      LiveDemo: "https://fm-tip-calculator-main.netlify.app/",
+      img: FMTipCalculator,
+    },
+    {
+      id: 2,
       name: "Guess My Number",
       Github: "https://github.com/ObodoakorDavid/GuessMyNumber",
       LiveDemo: "https://guess-my-number-tsa.netlify.app/",
       img: GuessMyNumber,
     },
     {
-      id: 2,
+      id: 3,
       name: "Dice Game",
       Github: "https://github.com/ObodoakorDavid/DiceGame",
       LiveDemo: "https://dice-game-tsa.netlify.app/",
       img: DiceGame,
     },
     {
-      id: 3,
+      id: 4,
       name: "Counter App",
       Github: "https://github.com/ObodoakorDavid/CounterWebsite",
       LiveDemo: "https://counterwebpage.netlify.app/",
