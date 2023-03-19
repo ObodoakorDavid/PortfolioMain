@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
-import Me from "../../Assets/ProjectImages/IMG_20220329_091704.jpg";
+import Me from "../../Assets/images/IMG_20220329_091704.jpg";
 import "./Main.css";
 
 const Main = () => {

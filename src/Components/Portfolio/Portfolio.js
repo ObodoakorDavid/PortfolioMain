@@ -16,6 +16,8 @@ import CounterApp from "../../Assets/images/CounterApp.png";
 import FMTodoApp from "../../Assets/images/FM-todo-app.png";
 import FMAdviceGenerator from "../../Assets/images/FM-advice-generator.png";
 import FMTipCalculator from "../../Assets/images/fm-tip-calculator.png";
+import FMRestCountriesApi from "../../Assets/images/rest-countries-api-IMG.png";
+import MultiStepForm from "../../Assets/images/multi-step-form-IMG.png";
 
 const Portfolio = () => {
   const ReactData = [
@@ -81,6 +83,20 @@ const Portfolio = () => {
       Github: "https://github.com/ObodoakorDavid/FM-Todo-App",
       LiveDemo: "https://fm-todo-app-main.netlify.app/",
       img: FMTodoApp,
+    },
+    {
+      id: 9,
+      name: "Multi Step Form",
+      Github: "https://github.com/ObodoakorDavid/FM-Multi-Step-Form",
+      LiveDemo: "https://fm-multi-step-form-main-0.netlify.app/",
+      img: MultiStepForm,
+    },
+    {
+      id: 10,
+      name: "Countries Details",
+      Github: "https://github.com/ObodoakorDavid/FM-rest-countries-api",
+      LiveDemo: "https://rest-countries-api-main.netlify.app/",
+      img: FMRestCountriesApi,
     },
   ];
 
