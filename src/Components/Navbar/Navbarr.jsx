@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbarr.css";
 
-import { icons } from "../../Assets/icons";
+import { icons } from "../../assets/icons";
 
 console.log("hh");
 
