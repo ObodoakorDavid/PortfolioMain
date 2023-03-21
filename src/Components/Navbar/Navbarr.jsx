@@ -19,6 +19,7 @@ const Navbarr = () => {
       document
         .querySelector("meta[name=theme-color]")
         .setAttribute("theme-color", "#ffffff");
+        console.log('hh');
     } else {
       setImage(icons.brightness);
       document
