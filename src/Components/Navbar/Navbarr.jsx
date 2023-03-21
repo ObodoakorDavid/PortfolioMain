@@ -6,6 +6,8 @@ import "./Navbarr.css";
 
 import { icons } from "../../assets/icons";
 
+console.log('hhh');
+
 const Navbarr = () => {
   const [image, setImage] = useState(icons.brightness);
   const [active, setActive] = useState("home");
