@@ -11,7 +11,12 @@ console.log("hh");
 const Navbarr = () => {
   const [image, setImage] = useState(icons.brightness);
   const [active, setActive] = useState("home");
-  console.log(document.querySelector("meta[name=theme-color]"));
+  // console.log(
+  //   document.querySelector("meta[name=theme-color]").getAttribute("content")
+  // );
+  document
+    .querySelector("meta[name=theme-color]")
+    .setAttribute("content", "#191d2b");
 
   function lightmode() {
     let body = document.body;
@@ -20,13 +25,12 @@ const Navbarr = () => {
       setImage(icons.moon);
       document
         .querySelector("meta[name=theme-color]")
-        .setAttribute("theme-color", "#ffffff");
-      console.log("hh");
+        .setAttribute("content", "#ffffff");
     } else {
       setImage(icons.brightness);
       document
         .querySelector("meta[name=theme-color]")
-        .setAttribute("theme-color", "#191d2b");
+        .setAttribute("content", "#191d2b");
     }
   }
   return (
