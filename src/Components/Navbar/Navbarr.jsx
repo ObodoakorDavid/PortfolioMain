@@ -4,25 +4,26 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbarr.css";
 
-import Home from "../../Assets/Icons/house.svg";
-import AboutMe from "../../Assets/Icons/person.svg";
-import Portfolio from "../../Assets/Icons/briefcase.svg";
-import ContactMe from "../../Assets/Icons/envelope-open.svg";
-import brightness from "../../Assets/Icons/brightness-high.svg";
-import moon from "../../Assets/Icons/moon-fill.svg";
+import { icons } from "../../assets/icons";
 
 const Navbarr = () => {
-  const [image, setImage] = useState(brightness);
+  const [image, setImage] = useState(icons.brightness);
   const [active, setActive] = useState("home");
+  console.log(document.querySelector("meta[name=theme-color]"));
 
   function lightmode() {
     let body = document.body;
-
     body.classList.toggle("lightmode");
     if (body.classList.contains("lightmode")) {
-      setImage(moon);
+      setImage(icons.moon);
+      document
+        .querySelector("meta[name=theme-color]")
+        .setAttribute("theme-color", "#ffffff");
     } else {
-      setImage(brightness);
+      setImage(icons.brightness);
+      document
+        .querySelector("meta[name=theme-color]")
+        .setAttribute("theme-color", "#191d2b");
     }
   }
   return (
@@ -32,7 +33,7 @@ const Navbarr = () => {
           <img
             className={active === "home" ? "home icons active" : "home icons"}
             onClick={() => setActive("home")}
-            src={Home}
+            src={icons.Home}
             alt=""
           />
         </Link>
@@ -42,7 +43,7 @@ const Navbarr = () => {
               active === "aboutMe" ? "aboutMe icons active" : "aboutMe icons"
             }
             onClick={() => setActive("aboutMe")}
-            src={AboutMe}
+            src={icons.AboutMe}
             alt=""
           />
         </Link>
@@ -54,7 +55,7 @@ const Navbarr = () => {
                 : "portfolio-nav icons"
             }
             onClick={() => setActive("portfolio-nav")}
-            src={Portfolio}
+            src={icons.Portfolio}
             alt=""
           />
         </Link>
@@ -67,7 +68,7 @@ const Navbarr = () => {
                 : "contactMe icons"
             }
             onClick={() => setActive("contactMe")}
-            src={ContactMe}
+            src={icons.ContactMe}
             alt=""
           />
         </Link>

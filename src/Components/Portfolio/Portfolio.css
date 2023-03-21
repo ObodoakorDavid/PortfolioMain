@@ -22,6 +22,10 @@
   border-bottom: 5px solid var(--secondary-color);
   border-radius: 5px;
   margin-bottom: 10px;
+  transition: 0.4s ease-in-out;
+}
+.eachproject > img:hover {
+  transform: scale(1.1);
 }
 
 .eachproject {
@@ -31,6 +35,7 @@
   text-align: center;
   transition: 0.9s ease;
   border: 0px solid var(--primary-color);
+  overflow-x: hidden;
 }
 
 .eachproject h3 {
@@ -67,7 +72,6 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
   gap: 30px;
 }
 

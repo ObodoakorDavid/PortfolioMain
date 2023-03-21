@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
-import Me from "../../Assets/images/IMG_20220329_091704.jpg";
+import { images } from "../../assets/images";
 import "./Main.css";
 
 const Main = () => {
@@ -26,7 +26,7 @@ const Main = () => {
             eager to learn about new things.
           </p>
         </div>
-        <img src={Me} alt="" />
+        <img src={images.myPhoto} alt="" />
       </div>
     </main>
   );
