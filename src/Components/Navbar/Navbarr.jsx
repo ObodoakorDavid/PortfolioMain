@@ -6,7 +6,7 @@ import "./Navbarr.css";
 
 import { icons } from "../../assets/icons";
 
-console.log('hhh');
+console.log('hhhyy');
 
 const Navbarr = () => {
   const [image, setImage] = useState(icons.brightness);
