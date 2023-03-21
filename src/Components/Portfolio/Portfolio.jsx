@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./Portfolio.css";
-import { images } from "../../assets/images";
+import { images } from "../../Assets/images";
 
 const Portfolio = () => {
   const ReactData = [
