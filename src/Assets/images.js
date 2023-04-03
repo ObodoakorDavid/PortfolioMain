@@ -17,11 +17,13 @@ import FMTipCalculator from "./images/fm-tip-calculator.png";
 import FMRestCountriesApi from "./images/rest-countries-api-IMG.png";
 import MultiStepForm from "./images/multi-step-form-IMG.png";
 import interactiveIMG from "./images/interactive-rating-component.png";
+import faqAccordion from "./images/FAQ.png";
+import newsHomepage from "./images/news-homepage.png";
+import socialMediaDashboard from "./images/social-media-dashboard.png";
 
-// ======================= 
+// =======================
 
 import myPhoto from "./images/IMG_20220329_091704.jpg";
-
 
 export const images = {
   githubIcon,
@@ -41,5 +43,8 @@ export const images = {
   FMRestCountriesApi,
   MultiStepForm,
   interactiveIMG,
-  myPhoto
+  faqAccordion,
+  newsHomepage,
+  socialMediaDashboard,
+  myPhoto,
 };
