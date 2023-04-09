@@ -1,12 +1,12 @@
 /** @format */
 import "./App.css";
-import Main from "./Components/Main/Main";
+import Main from "./components/Main/Main";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbarr from "./Components/Navbar/Navbarr";
-import About from "./Components/About/About";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import Contact from "./Components/Contact/Contact";
-import ErrorPage from "./Components/ErrorPage/ErrorPage";
+import Navbarr from "./components/Navbar/Navbarr";
+import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 function App() {
   return (
