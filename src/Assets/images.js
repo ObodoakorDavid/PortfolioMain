@@ -20,6 +20,7 @@ import interactiveIMG from "./images/interactive-rating-component.png";
 import faqAccordion from "./images/FAQ.png";
 import newsHomepage from "./images/news-homepage.png";
 import socialMediaDashboard from "./images/social-media-dashboard.png";
+import jobListings from "./images/Job-listings.png";
 
 // =======================
 
@@ -47,4 +48,5 @@ export const images = {
   newsHomepage,
   socialMediaDashboard,
   myPhoto,
+  jobListings,
 };

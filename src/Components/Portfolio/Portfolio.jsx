@@ -30,20 +30,27 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      name: "Job Listings",
+      Github: "https://github.com/ObodoakorDavid/FM-static-job-listings",
+      LiveDemo: "https://fm-job-listings-0.netlify.app/",
+      img: images.jobListings,
+    },
+    {
+      id: 5,
       name: "Random Advice Generator",
       Github: "https://github.com/ObodoakorDavid/FM-Advice-Generator",
       LiveDemo: "https://fm-random-advice-generator-main.netlify.app/",
       img: images.FMAdviceGenerator,
     },
     {
-      id: 5,
+      id: 6,
       name: "Dictionary App",
       Github: "https://github.com/ObodoakorDavid/Working-Dictionary",
       LiveDemo: "https://dictionary-website.netlify.app/",
       img: images.DictionaryApp,
     },
     {
-      id: 6,
+      id: 7,
       name: "Ha-Wallet",
       Github: "https://github.com/ObodoakorDavid/BookmarkWebpage",
       LiveDemo: "https://ha-wallet.netlify.app/",
@@ -51,7 +58,7 @@ const Portfolio = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       name: "Shortly",
       Github: "https://github.com/ObodoakorDavid/Shortly",
       LiveDemo: "https://shortly-webpage.netlify.app/",
@@ -59,27 +66,28 @@ const Portfolio = () => {
     },
 
     {
-      id: 8,
+      id: 9,
       name: "Fylo",
       Github: "https://github.com/ObodoakorDavid/Fylo",
       LiveDemo: "https://fylo-webpage-project.netlify.app/",
       img: images.Fylo,
     },
     {
-      id: 9,
+      id: 10,
       name: "EasyBanking",
       Github: "https://github.com/ObodoakorDavid/TradExpress",
       LiveDemo: "https://easybanking-webpage.netlify.app/",
       img: images.EasyBanking,
     },
 
-    {
-      id: 10,
-      name: "TradExpress",
-      Github: "https://github.com/ObodoakorDavid/TradExpress",
-      LiveDemo: "https://tradexpress.netlify.app/",
-      img: images.TradeExpress,
-    },
+    
+    // {
+    //   id: 11,
+    //   name: "TradExpress",
+    //   Github: "https://github.com/ObodoakorDavid/TradExpress",
+    //   LiveDemo: "https://tradexpress.netlify.app/",
+    //   img: images.TradeExpress,
+    // },
   ];
 
   const JavaScriptData = [
