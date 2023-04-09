@@ -1,0 +1,110 @@
+/** @format */
+
+.about {
+  color: var(--color-white);
+  padding: 3% 5%;
+  background-color: var(--primary-color);
+  min-height: 100vh;
+  transition: 0.4 ease-in-out;
+  padding-bottom: 80px;
+}
+
+.about span {
+  color: var(--secondary-color);
+}
+
+.about h1 {
+  padding-bottom: 20px;
+}
+.about h2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.progress {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.progress > div {
+  display: flex;
+  gap: 10px;
+}
+.progress-inner {
+  margin-top: 10px;
+  background-color: var(--color-grey2);
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  position: relative;
+}
+
+.progressbar {
+  background-color: var(--secondary-color);
+  height: 5px;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.html {
+  width: 90%;
+}
+.css {
+  width: 80%;
+}
+.javascript {
+  width: 70%;
+}
+.react {
+  width: 70%;
+}
+.python {
+  width: 40%;
+}
+.django {
+  width: 30%;
+}
+
+.inner-information1 p {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.inner-information2 > div {
+  display: grid;
+  gap: 10px;
+}
+.inner-information2 > div > div {
+  border: 1px solid var(--color-grey2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+.inner-information2 > div > div > div {
+  padding-bottom: 10px;
+}
+.inner-information2 > div > div > div p {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: var(--secondary-color);
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 3% 15%;
+    padding-left: 5%;
+  }
+
+  .allprogress {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .information {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 5%;
+  }
+}
