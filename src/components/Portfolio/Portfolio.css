@@ -85,6 +85,29 @@
   padding-top: 10px;
 }
 
+.options {
+  display: flex;
+  gap: 10%;
+  width: max-content;
+  margin: 10px auto;
+}
+
+.options p {
+  background-color: var(--secondary-color);
+  padding: 8px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  border:  1px solid var(--secondary-color);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.options p:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border:  1px solid var(--secondary-color);
+}
+
 @media (min-width: 768px) {
   .eachproject {
     text-align: left;
