@@ -1,7 +1,7 @@
 /** @format */
 import "./App.css";
 import Main from "./components/Main/Main";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbarr from "./components/Navbar/Navbarr";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
@@ -11,7 +11,7 @@ import ErrorPage from "./components/ErrorPage/ErrorPage";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Navbarr />
         <Routes>
           <Route path="/" element={<Main />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/contactme" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
