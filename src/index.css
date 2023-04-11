@@ -10,22 +10,19 @@
 }
 
 :root {
-  --primary-color: #191d2b;
-  --secondary-color: #27ae60;
-  --color-white: #ffffff;
-  --color-black: #000;
-  --color-grey: #2a2e35;
-  --color-grey2: #454e56;
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
+  --primary-color: #121212;
+  --secondary-color: #03C988;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #B3B3B3;
+  --color-bg: #3A3B3C;
 }
 
 .lightmode {
-  --color-white: #000;
-  --color-black: #ffffff;
-  --primary-color: #ffffff;
-  --secondary-color: #ee0f59;
-  --color-bg: transparent;
+  --primary-color: #E4E6EB;
+  --secondary-color: #1C82AD;
+  --primary-text-color: #121212;
+  --secondary-text-color: #181818;
+  --color-bg: #B0B3B8;
 }
 
 body {

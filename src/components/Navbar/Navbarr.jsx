@@ -3,17 +3,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbarr.css";
-
 import { icons } from "../../assets/icons";
-
-console.log("hh");
 
 const Navbarr = () => {
   const [image, setImage] = useState(icons.brightness);
   const [active, setActive] = useState("home");
-  // console.log(
-  //   document.querySelector("meta[name=theme-color]").getAttribute("content")
-  // );
+  
   document
     .querySelector("meta[name=theme-color]")
     .setAttribute("content", "#191d2b");
