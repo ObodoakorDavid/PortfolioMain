@@ -1,7 +1,7 @@
 /** @format */
 
 .main {
-  color: var(--color-white);
+  color: var(--primary-text-color);
   padding: 3% 5%;
   background-color: var(--primary-color);
   min-height: 100vh;
@@ -24,6 +24,10 @@
 
 .inner-main h1{
   padding-bottom: 20px;
+}
+
+.inner-main p {
+  color: var(--secondary-text-color);
 }
 
 @media (min-width: 768px) {

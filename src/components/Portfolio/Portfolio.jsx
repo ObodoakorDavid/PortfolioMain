@@ -49,15 +49,6 @@ const Portfolio = () => {
             })}
           </div>
         </div>
-
-        {/* <div className="allprojects-items">
-          <h1>JavaScript Projects</h1>
-          <div className="projects">
-            {data.JavaScriptData.map((datum) => {
-              return <Project key={datum.id} datum={datum} />;
-            })}
-          </div>
-        </div> */}
       </div>
     </div>
   );
