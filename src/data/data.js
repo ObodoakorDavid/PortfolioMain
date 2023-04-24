@@ -95,20 +95,27 @@ const JavaScriptData = [
   },
   {
     id: 2,
+    name: "E-commerce Product Page",
+    Github: "https://github.com/ObodoakorDavid/FM-e-commerce-product-page",
+    LiveDemo: "https://fm-e-commerce-product-page.netlify.app/",
+    img: images.eCommerceProductPage,
+  },
+  {
+    id: 3,
     name: "Social Media Dashboard",
     Github: "https://github.com/ObodoakorDavid/FM-social-media-dashboard",
     LiveDemo: "https://social-media-dashboard-0.netlify.app/",
     img: images.socialMediaDashboard,
   },
   {
-    id: 3,
+    id: 4,
     name: "News Homepage",
     Github: "https://github.com/ObodoakorDavid/FM-news-homepage",
     LiveDemo: "https://new-homepage-0.netlify.app/",
     img: images.newsHomepage,
   },
   {
-    id: 4,
+    id: 5,
     name: "FAQ Accordion",
     Github: "https://github.com/ObodoakorDavid/FM-faq-accordion-main",
     LiveDemo: "https://fm-faq-accordion-main.netlify.app/",
@@ -116,7 +123,7 @@ const JavaScriptData = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Interactive Rating Component",
     Github: "https://github.com/ObodoakorDavid/FM-interactive-rating-component",
     LiveDemo: "https://fm-interactive-rating-component-0.netlify.app/",
