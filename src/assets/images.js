@@ -22,6 +22,8 @@ import newsHomepage from "./images/news-homepage.png";
 import socialMediaDashboard from "./images/social-media-dashboard.png";
 import jobListings from "./images/Job-listings.png";
 import eCommerceProductPage from "./images/e-commerce-product-page.png";
+import IPAddressTracker from "./images/IP-Address-Tracker.png";
+import ExpenseChartComponent from './images/Expenses-Chart-Component.png'
 
 // =======================
 
@@ -51,4 +53,6 @@ export const images = {
   myPhoto,
   jobListings,
   eCommerceProductPage,
+  IPAddressTracker,
+  ExpenseChartComponent
 };

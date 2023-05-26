@@ -33,20 +33,27 @@ const ReactData = [
   },
   {
     id: 5,
+    name: "IP Address Tracker",
+    Github: "https://github.com/ObodoakorDavid/FM-IP-Address-Tracker",
+    LiveDemo: "https://fm-ip-address-tracker-main.netlify.app/",
+    img: images.IPAddressTracker,
+  },
+  {
+    id: 6,
     name: "Random Advice Generator",
     Github: "https://github.com/ObodoakorDavid/FM-Advice-Generator",
     LiveDemo: "https://fm-random-advice-generator-main.netlify.app/",
     img: images.FMAdviceGenerator,
   },
   {
-    id: 6,
+    id: 7,
     name: "Dictionary App",
     Github: "https://github.com/ObodoakorDavid/Working-Dictionary",
     LiveDemo: "https://dictionary-website.netlify.app/",
     img: images.DictionaryApp,
   },
   {
-    id: 7,
+    id: 8,
     name: "Ha-Wallet",
     Github: "https://github.com/ObodoakorDavid/BookmarkWebpage",
     LiveDemo: "https://ha-wallet.netlify.app/",
@@ -54,7 +61,7 @@ const ReactData = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: "Shortly",
     Github: "https://github.com/ObodoakorDavid/Shortly",
     LiveDemo: "https://shortly-webpage.netlify.app/",
@@ -62,14 +69,14 @@ const ReactData = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "Fylo",
     Github: "https://github.com/ObodoakorDavid/Fylo",
     LiveDemo: "https://fylo-webpage-project.netlify.app/",
     img: images.Fylo,
   },
   {
-    id: 10,
+    id: 11,
     name: "EasyBanking",
     Github: "https://github.com/ObodoakorDavid/TradExpress",
     LiveDemo: "https://easybanking-webpage.netlify.app/",
@@ -102,20 +109,27 @@ const JavaScriptData = [
   },
   {
     id: 3,
+    name: "Expenses Chart Component",
+    Github: "https://github.com/ObodoakorDavid/FM-Expenses-Chart-Component",
+    LiveDemo: "https://fm-expenses-chart-component-main.netlify.app/",
+    img: images.ExpenseChartComponent,
+  },
+  {
+    id: 4,
     name: "Social Media Dashboard",
     Github: "https://github.com/ObodoakorDavid/FM-social-media-dashboard",
     LiveDemo: "https://social-media-dashboard-0.netlify.app/",
     img: images.socialMediaDashboard,
   },
   {
-    id: 4,
+    id: 5,
     name: "News Homepage",
     Github: "https://github.com/ObodoakorDavid/FM-news-homepage",
     LiveDemo: "https://new-homepage-0.netlify.app/",
     img: images.newsHomepage,
   },
   {
-    id: 5,
+    id: 6,
     name: "FAQ Accordion",
     Github: "https://github.com/ObodoakorDavid/FM-faq-accordion-main",
     LiveDemo: "https://fm-faq-accordion-main.netlify.app/",
@@ -123,12 +137,13 @@ const JavaScriptData = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Interactive Rating Component",
     Github: "https://github.com/ObodoakorDavid/FM-interactive-rating-component",
     LiveDemo: "https://fm-interactive-rating-component-0.netlify.app/",
     img: images.interactiveIMG,
   },
+  
 ];
 
 export const data = { ReactData, JavaScriptData };
